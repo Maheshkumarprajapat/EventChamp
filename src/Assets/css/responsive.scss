@@ -1,0 +1,46 @@
+@media (max-width: 991px) {
+    .events_section .events_slider .card-body .card-title {
+        font-size: 19px;
+    }
+    .navbar {
+        background-color: #fb0;
+        .navbar-nav .nav-link {
+            padding-left: 0px !important;
+        }
+        .navbar-cart-img {
+            display: none;
+        }
+        ul.navbar-user-box {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .section-title {
+        margin-bottom: 40px;
+    }
+    .newsletter_section {
+        .newsletter_content {
+            .newsletter_input_box {
+                width: 100% !important;
+                text-align: center;
+            }
+            .newsletter_input {
+               flex-direction: column;
+            }
+        }
+        .newsletter_checkbox label {
+            justify-content: center;
+        }
+    }
+    .contact_section .copyright_section .copyright_content {
+        flex-direction: column;
+    }
+}
+@media (max-width: 576px) {
+
+    .navbar-brand img {
+        width: 170px !important;
+    }
+}

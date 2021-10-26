@@ -1,0 +1,39 @@
+{
+    "CategoriesEvent": {
+        "ttl1": "Explore",
+        "ttl2": "Categories",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor.",
+        "CategoriesEventbox": [
+            {
+                "travel": "Travel",
+                "event": "Events",
+                "img": "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/event-20.jpg"
+            },
+            {
+                "travel": "Technology",
+                "event": "Events",
+                "img": "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/event-4.jpg"
+            },
+            {
+                "travel": "Sports",
+                "event": "Events",
+                "img": "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/event-14.jpg"
+            },
+            {
+                "travel": "Art",
+                "event": "Events",
+                "img": "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/wedding-5.jpg"
+            },
+            {
+                "travel": "Business",
+                "event": "Events",
+                "img": "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/speaker-photos-5.jpg"
+            },
+            {
+                "travel": "Education",
+                "event": "Events",
+                "img": "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/event-3.jpg"
+            }
+        ]
+    }
+}

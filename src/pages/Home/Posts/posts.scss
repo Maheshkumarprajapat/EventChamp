@@ -1,0 +1,103 @@
+.post_section{
+    overflow: hidden;
+    margin: 26px;
+    background-color: #f9f9f9!important;
+}
+.post_section .post_content .post_img img{
+    border-radius: 5px;
+}
+.post_section .post_content .post_img{
+    position: relative;
+}
+.post_section .post_content .post_button {
+    position: absolute;
+    bottom: 10%;
+    margin-left: 20px;
+}
+.post_section .post_content .post_button .post_btn{
+    background: #fff;
+    color: #fb0;
+    font-size: 12px;
+    font-family:  Poppins Medium;
+    border-radius: 20px;
+    padding: 6px 20px;
+}
+.post_section .post_content .post_text h5 {
+    color: #222;
+    font-size: 22px;
+    line-height: 1.4;
+    font-weight: 700;
+    margin: 15px 0px;
+    transition: all 0.5s ease;
+}
+.post_section .post_content .post_text h5:hover {
+    color: #fb0;
+}
+.post_section .post_content .post_text p {
+    font-size: 12px;
+    color: #777;
+    font-family:  Poppins Medium;
+}
+.post_section .post_content .post_icon{
+    display: flex;
+}
+.post_section .post_content .post_icon p{
+    align-items: center;
+    display: flex;
+    margin-right: 20px;
+    font-size: 12px;
+    color: #777;
+    font-family: Poppins Medium;
+}
+.post_section .post_content .post_icon p span{
+    color: #fb0;
+    padding-right: 10px;
+    align-items: center;
+    display: flex;
+    font-size: 16px !important;
+}
+
+
+
+
+// Post Section Slider Start
+.owl-nav {
+    margin-top: 50px !important;
+    width: 250px;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    font-size: 25px;
+    button{width:40px;height: 40px;border-radius: 4px; border: 1px solid #eaeaea !important;color: #777 !important;font-weight: 500;}
+}
+.owl-nav span {
+    height: 10px;
+    line-height: 0px;
+    display: block;
+    font-size: 40px;
+}
+.slider-button {
+    margin-top: -45px;
+}
+.slider-button .slider-btn{
+    border: 1px solid #eaeaea !important;
+    color: #777 !important;
+    font-weight: 500;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 22px;
+    transition: all 0.5s ease;
+}
+.slider-button .slider-btn:hover {
+    color: #fff !important;
+    background-color: #fb0 !important;
+}
+.owl-theme .owl-nav .owl-prev:hover,
+.owl-theme .owl-nav .owl-next:hover{
+    color: #fff !important;
+    background-color: #fb0 !important;
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 0px; 
+}

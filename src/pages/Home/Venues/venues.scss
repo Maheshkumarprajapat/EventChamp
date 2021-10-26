@@ -1,0 +1,40 @@
+.venues_section .venues_content {
+    .venues_img {
+      img {
+        border-radius: 5px;
+      }
+  
+      position: relative;
+    }
+  
+    .venues_button {
+      position: absolute;
+      bottom: 10%;
+      margin-left: 20px;
+  
+      .venues_btn {
+        background: #fff;
+        color: #fb0;
+        font-size: 12px;
+        font-family: Poppins Medium;
+        border-radius: 20px;
+        padding: 6px 20px;
+      }
+    }
+  
+    .venues_text {
+      h5 {
+        color: #222;
+        font-size: 22px;
+        line-height: 1.4;
+        font-weight: 700;
+        margin: 15px 0px;
+      }
+  
+      p {
+        font-size: 12px;
+        color: #777;
+        font-family: Poppins Medium;
+      }
+    }
+  }

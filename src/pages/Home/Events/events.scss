@@ -1,0 +1,64 @@
+.events_section {
+    background-color: #f9f9f9!important;
+
+}
+.events_slider{
+    overflow: hidden;
+    margin: 26px;
+}
+.slider-button {
+ width: 100%;
+ text-align: center;
+    margin-top: -43px;
+}
+.slider-button .slider-btn{
+    border: 1px solid #eaeaea !important;
+    color: #777 !important;
+    font-weight: 500;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 22px;
+    transition: all 0.5s ease;
+}
+.slider-button .slider-btn:hover {
+    color: #fff !important;
+    background-color: #fb0 !important;
+}
+.owl-theme .owl-nav .owl-prev:hover,
+.owl-theme .owl-nav .owl-next:hover{
+    color: #fff !important;
+    background-color: #fb0 !important;
+}
+.events_section img{
+    width: 100%;
+    height: 100%;
+}
+.events_section .events_slider .card-body .card-title{
+    font-size: 21px;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-bottom: 15px;
+    transition: all 0.5s ease;
+}
+.events_section .events_slider .card-body .card-title:hover{
+    color: #fb0;
+}
+.events_section .events_slider .card-body .events_btn{
+    background-color: #fb0;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.events_section .events_slider .card-body .events_btn:focus{
+    box-shadow: none;
+}
+.events_section .events_slider .card-body p{
+    font-size: 12px;
+    color: #777;
+    font-family:  Poppins Medium;
+}
+.events_section .events_slider .card-body p span{
+    color: #fb0;
+    padding-right: 2px;
+}

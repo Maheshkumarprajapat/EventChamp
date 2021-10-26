@@ -1,0 +1,163 @@
+{
+    "Categories": {
+        "ttl1": "Explore",
+        "ttl2": "Categories",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor.",
+        "Categoriesbox": [
+            {
+                "travel": "Travel",
+                "event": "Events",
+                "img": "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/event-20.jpg"
+            },
+            {
+                "travel": "Technology",
+                "event": "Events",
+                "img": "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/event-4.jpg"
+            },
+            {
+                "travel": "Sports",
+                "event": "Events",
+                "img": "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/event-14.jpg"
+            },
+            {
+                "travel": "Art",
+                "event": "Events",
+                "img": "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/wedding-5.jpg"
+            },
+            {
+                "travel": "Business",
+                "event": "Events",
+                "img": "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/speaker-photos-5.jpg"
+            },
+            {
+                "travel": "Education",
+                "event": "Events",
+                "img": "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/event-3.jpg"
+            }
+        ]
+    },
+    "Events" : {
+        "ttl1": "Upcoming ",
+        "ttl2": "Events",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor."
+    },
+    "Venues" : {
+        "ttl1": "Explore  ",
+        "ttl2": "Venues",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor.",
+        "Venuesbox" : [
+            {
+                "img" : "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/event-20-952x579.jpg",
+                "btn" : "Munich",
+                "title" : "Bavarian Alps",
+                "desc" : "Lorem ipsum dolor sit amet, voluptua iracundia an pri, his utinam principes dignissim ad. Ne nec dolore oblique nusquam, cu luptatum volutpat delicatissimi has."
+            },
+            {
+                "img" : "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/event-18-952x579.jpg",
+                "btn" : "France",
+                "title" : "Megeve",
+                "desc" : "Lorem ipsum dolor sit amet, voluptua iracundia an pri, his utinam principes dignissim ad. Ne nec dolore oblique nusquam, cu luptatum volutpat delicatissimi has."
+            },
+            {
+                "img" : "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/event-17-952x579.jpg",
+                "btn" : "California",
+                "title" : "Griffith Park",
+                "desc" : "Lorem ipsum dolor sit amet, voluptua iracundia an pri, his utinam principes dignissim ad. Ne nec dolore oblique nusquam, cu luptatum volutpat delicatissimi has."
+            },
+            {
+                "img" : "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/venue-11-952x579.jpg",
+                "btn" : "Paris",
+                "title" : "Paris Entertainment Club",
+                "desc" : "Lorem ipsum dolor sit amet, voluptua iracundia an pri, his utinam principes dignissim ad. Ne nec dolore oblique nusquam, cu luptatum volutpat delicatissimi has."
+            },
+            {
+                "img" : "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/venue-10-952x579.jpg",
+                "btn" : "Cape Town",
+                "title" : "Table Mountain",
+                "desc" : "Lorem ipsum dolor sit amet, voluptua iracundia an pri, his utinam principes dignissim ad. Ne nec dolore oblique nusquam, cu luptatum volutpat delicatissimi has."
+            },
+            {
+                "img" : "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/venue-9-952x579.jpg",
+                "btn" : "Munich",
+                "title" : "Munich Stadium",
+                "desc" : "Lorem ipsum dolor sit amet, voluptua iracundia an pri, his utinam principes dignissim ad. Ne nec dolore oblique nusquam, cu luptatum volutpat delicatissimi has."
+            }
+
+        ]
+    },
+    "Speakers" : {
+        "ttl1": "Popular",
+        "ttl2": "Speakers",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor.",
+        "Speakersbox" :[
+            {
+                "img" : "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/speaker-13-615x640.jpg","btn" : "Munich",
+                "title1" : "Roberto Berry",
+                "title2" : "Ceo & Founder",
+                "desc" : "Lorem ipsum dolor sit amet, voluptua iracundia disputationi an pri, his utinam principes dignissim ad ne nec dolore oblique nusquam."
+            },
+            {
+                "img" : "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/speaker-2-615x640.jpg",
+                "title1" : "Diana Hoch",
+                "title2" : "Ceo & Founder",
+                "desc" : "Lorem ipsum dolor sit amet, voluptua iracundia disputationi an pri, his utinam principes dignissim ad ne nec dolore oblique nusquam."
+            },
+            {
+                "img" : "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/speaker-3-615x640.jpg",
+                "title1" : "Betty J. Smith",
+                "title2" : "Journalist",
+                "desc" : "Lorem ipsum dolor sit amet, voluptua iracundia disputationi an pri, his utinam principes dignissim ad ne nec dolore oblique nusquam."
+            },
+            {
+                "img" : "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/speaker-4-615x640.jpg",
+                "title1" : "Ece Demir",
+                "title2" : "Journalist",
+                "desc" : "Lorem ipsum dolor sit amet, voluptua iracundia disputationi an pri, his utinam principes dignissim ad ne nec dolore oblique nusquam."
+            },
+            {
+                "img" : "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/speaker-5-615x640.jpg",
+                "title1" : "Karen A. Harris",
+                "title2" : "Model",
+                "desc" : "Lorem ipsum dolor sit amet, voluptua iracundia disputationi an pri, his utinam principes dignissim ad ne nec dolore oblique nusquam."
+            },
+            {
+                "img" : "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/speaker-6-615x640.jpg",
+                "title1" : "Lois G. Wynn",
+                "title2" : "Developer",
+                "desc" : "Lorem ipsum dolor sit amet, voluptua iracundia disputationi an pri, his utinam principes dignissim ad ne nec dolore oblique nusquam."
+            }
+        ]
+    },
+    "Posts" : {
+        "ttl1": "Latest",
+        "ttl2": "Posts",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor.",
+        "Postsbox" : [
+            {
+                "img" : "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/event-4-870x550.jpg",
+                "btn" : "News",
+                "title" : "Budgets for Business Events",
+                "desc" : "Lorem ipsum dolor sit amet, voluptua iracundia disputationi an pri, his utinam principes dignissim ad. Ne nec dolore oblique nusquam, cu luptatum volutpat delicatissimi has. Sed ad dicam platonem, mea eros illum elitr id, ei has similique constituto."
+            },
+            {
+                "img" : "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/event-22-870x550.jpg",
+                "btn" : "Lists",
+                "title" : "5 Ideas for Fun Family Activities",
+                "desc" : "Lorem ipsum dolor sit amet, voluptua iracundia disputationi an pri, his utinam principes dignissim ad. Ne nec dolore oblique nusquam, cu luptatum volutpat delicatissimi has. Sed ad dicam platonem, mea eros illum elitr id, ei has similique constituto."
+            },
+            {
+                "img" : "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/event-12-870x550.jpg",
+                "btn" : "Events",
+                "title" : "Best Event Ticket Deals",
+                "desc" : "Lorem ipsum dolor sit amet, voluptua iracundia disputationi an pri, his utinam principes dignissim ad. Ne nec dolore oblique nusquam, cu luptatum volutpat delicatissimi has. Sed ad dicam platonem, mea eros illum elitr id, ei has similique constituto."
+            },
+            {
+                "img" : "https://demo.gloriathemes.com/eventchamp/demo/wp-content/uploads/2018/11/venue-11-870x550.jpg",
+                "btn" : "Lists",
+                "title" : "Top 20 Event and Conference Countries",
+                "desc" : "Lorem ipsum dolor sit amet, voluptua iracundia disputationi an pri, his utinam principes dignissim ad. Ne nec dolore oblique nusquam, cu luptatum volutpat delicatissimi has. Sed ad dicam platonem, mea eros illum elitr id, ei has similique constituto."
+            }
+
+        ]
+    }
+}
