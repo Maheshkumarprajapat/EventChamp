@@ -1,6 +1,6 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import { FaRegFolder } from "react-icons/fa";
+import { Container, Row, Col, Form } from 'react-bootstrap';
+import { FaRegEnvelope } from "react-icons/fa";
 import './newsletter.scss'
 
 export default function Newsletter() {
@@ -14,32 +14,28 @@ export default function Newsletter() {
                                 <div className="newsletter_heading">Newsletter</div>
                                 <div className="newsletter_border">
                                     <div className="newsletter_icon">
-                                        <FaRegFolder />
+                                        <FaRegEnvelope />
                                     </div>
                                 </div>
                                 <div className="newsletter_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.Culpa,voluptates.</div>
                             </div>
                             <div className="newsletter_content">
-                                <div className="newsletter_input">
+                                    <Form>
+                                        <Row>
+                                            <Col className="newsletter_input">
+                                                <Form.Control placeholder="Enter email address" className="newsletter_input_name" />
+                                            </Col>
+                                            <Col className="newsletter_input">
+                                                <Form.Control placeholder="Enter your name" className="newsletter_input_name" />
+                                            </Col>
+                                            <Col className="newsletter_input">
+                                                <div className="newsletter_button">
+                                                    <a href="/" className="newsletter_btn btn">SUBMIT</a>
+                                                </div>
+                                            </Col>
+                                        </Row>
 
-                                    <div className="newsletter_input_box tab">
-                                        <input type="email" name="EMAIL" placeholder="Enter email address" required="" />
-                                    </div>
-
-                                    <div className="newsletter_input_box tab">
-                                        <input type="email" name="EMAIL" placeholder="Enter your name" required="" />
-                                    </div>
-                                    <div className="newsletter_input_box tab">
-                                        <input type="email" name="EMAIL" placeholder="Enter your name" required="" />
-                                    </div>
-
-                                    <div className="newsletter_input_box tab">
-                                        <div className="newsletter_button">
-                                            <a href="/" className="newsletter_btn btn">SUBMIT</a>
-                                        </div>
-                                    </div>
-
-                                </div>
+                                    </Form>
                             </div>
 
                             <div className="newsletter_checkbox">

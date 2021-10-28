@@ -1,20 +1,20 @@
-.newsletter_section{
-    background-image: url('../../../Assets/images/Newsletter.webp');
+.newsletter_section {
+    background-image: url("../../../Assets/images/Newsletter.webp");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
-.newsletter_section .newsletter_title{
+.newsletter_section .newsletter_title {
     text-align: center;
     margin-bottom: 80px;
 }
-.newsletter_section .newsletter_title .newsletter_heading{
+.newsletter_section .newsletter_title .newsletter_heading {
     font-size: 42px;
     line-height: 1.3;
     color: #fff;
-    font-family:  Poppins Regular;
+    font-family: Poppins Regular;
 }
 .newsletter_section .newsletter_title .newsletter_border {
     align-items: center;
@@ -23,14 +23,14 @@
     justify-content: center;
     color: #fff;
 }
-.newsletter_section .newsletter_title .newsletter_border:after, 
+.newsletter_section .newsletter_title .newsletter_border:after,
 .newsletter_section .newsletter_title .newsletter_border:before {
     content: "";
     display: block;
     height: 1px;
     width: 125px;
     background: currentColor;
-    opacity: .15;
+    opacity: 0.15;
 }
 .newsletter_section .newsletter_title .newsletter_border .newsletter_icon {
     background: transparent;
@@ -39,44 +39,35 @@
     color: gray;
 }
 .newsletter_section .newsletter_title .newsletter_text {
-    opacity: .7;
+    opacity: 0.7;
     font-size: 16px;
     margin-top: 40px;
     color: #fff;
 }
-
-.newsletter_section .newsletter_content .newsletter_input{
-    display: flex;
-}
-.newsletter_section .newsletter_content .newsletter_input_box{
-    width: 33.33%;
-}
-.newsletter_section .newsletter_content input {
+.newsletter_input .newsletter_input_name {
     background: transparent;
-    border: 1px solid #fff;
-    padding: 13px 20px;
-    color: #fff !important;
-    width: 90%;
-    border-radius: 5px;
-    outline: none;
 }
-.newsletter_section .newsletter_content .newsletter_button .newsletter_btn{
+.form-control {
+    border: 2px solid #fff !important;
+}
+.newsletter_button .newsletter_btn {
     background-color: #fb0;
     font-size: 12px;
     font-weight: 500;
     padding: 12px 30px;
     color: #fff !important;
-    width: 90%;
+    width: 100%;
     border-radius: 5px;
     outline: none;
     transition: all 0.5s ease;
 }
-.newsletter_section .newsletter_content .newsletter_button .newsletter_btn:hover{
+.newsletter_button .newsletter_btn:hover {
     border: 1px solid #fb0;
     background: transparent;
     color: #fb0 !important;
 }
-.newsletter_section .newsletter_checkbox{
+
+.newsletter_section .newsletter_checkbox {
     margin-top: 15px;
     color: #fff;
 }
@@ -97,9 +88,9 @@
     position: relative;
     margin-right: 10px;
     border-radius: 3px;
-} 
-.newsletter_section .newsletter_checkbox [type=checkbox]:checked + span:before {
-    content: '\2714';
+}
+.newsletter_section .newsletter_checkbox [type="checkbox"]:checked + span:before {
+    content: "\2714";
     position: absolute;
     font-size: 10px;
     color: #fff !important;

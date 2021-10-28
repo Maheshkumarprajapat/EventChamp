@@ -1,0 +1,150 @@
+.travel_section {
+  .travel_content {
+    background-image: url("../../Assets/images/Categoriespages/travel/1.webp");
+    position: relative;
+    padding: 120px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .travel_input {
+      select {
+        font-size: 14px;
+        font-weight: 400;
+        padding: 12px 10px;
+        color: #fff !important;
+        width: 100%;
+        border-radius: 5px;
+        outline: none;
+        background: transparent;
+        border-color: #fff;
+        cursor: pointer;
+        &::placeholder {
+          color: #fff !important;
+        }
+      }
+    }
+    .travel_input_name {
+      font-size: 12px;
+      font-weight: 400;
+      padding: 14px 10px;
+      color: #fff !important;
+      width: 100%;
+      border-radius: 5px;
+      outline: none;
+      height: inherit;
+      background: transparent;
+      border-color: #fff;
+      &:focus{
+        box-shadow: none;
+      }
+    }
+    .travel_button {
+      .travel_btn {
+        background-color: #fb0;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 12px 30px;
+        color: #fff !important;
+        width: 100%;
+        border-radius: 5px;
+        transition: all 0.5s ease;
+        &:focus{
+          box-shadow: none;
+        }
+        &:hover {
+          border: 1px solid #fb0;
+          background: transparent;
+          color: #fb0 !important;
+        }
+      }
+    }
+  }
+}
+
+.travel_section {
+  .travel_card{
+    padding: 0 15px 30px;
+  
+  .travel_card_img {
+    img {
+      border-radius: 5px;
+    }
+
+    position: relative;
+  }
+
+  .travel_card_button {
+    position: absolute;
+    bottom: 10%;
+    padding: 0px 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    .travel_card_btn1 {
+      background: #fff;
+      color: #fb0;
+      font-size: 12px;
+      font-family: Poppins Medium;
+      border-radius: 20px;
+      padding: 6px 20px;
+    }
+    .travel_card_btn2 {
+      background: #fb0;
+      color: #fff;
+      font-size: 12px;
+      font-family: Poppins Medium;
+      border-radius: 20px;
+      padding: 6px 20px;
+    }
+  }
+
+  .travel_card_text {
+    .travel_card_icon {
+      display: flex;
+      align-items: center;
+      padding: 15px 0px;
+      .travel_card_icon_btn {
+        background: #fb0;
+        color: #fff;
+        font-size: 12px;
+        font-family: Poppins Medium;
+        border-radius: 20px;
+        padding: 6px 20px;
+        margin-right: 20px;
+      }
+      p {
+        margin-right: 20px;
+        font-size: 14px;
+        margin-bottom: 0px;
+        transition: all 0.5s ease;
+        span {
+          margin-right: 5px;
+          color: #fb0;
+        }
+      }
+      p.icon2:hover{
+        color: #fb0 !important;
+        cursor: pointer;
+      }
+    }
+    h5 {
+      color: #222;
+      font-size: 22px;
+      line-height: 1.4;
+      font-weight: 700;
+      margin-top: 15px;
+      transition: all 0.5s ease;
+      &:hover{
+        color: #fb0;
+      }
+    }
+
+    p {
+      font-size: 12px;
+      color: #777;
+      font-family: Poppins Medium;
+    }
+  }
+}
+}

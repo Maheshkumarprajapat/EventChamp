@@ -5,7 +5,6 @@ import Venues from './Venues/Venues';
 import Newsletter from './Newsletter/Newsletter';
 import Speakers from './Speakers/Speakers';
 import Posts from './Posts/Posts';
-import Contact from './Contact/Contact';
 import JsonData from '../../data/HomeData.json'
 import HomeBanner from './HomeBanner/HomeBanner'
 
@@ -26,7 +25,6 @@ function Home() {
       <Newsletter />
       <Speakers data={PageData.Speakers} />
       <Posts data={PageData.Posts} />
-      <Contact />
     </>
   )
 }

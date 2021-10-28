@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: Poppins;
+}
 /* Font Family */
 @font-face {
     font-family:  Poppins Bold;
@@ -74,10 +78,13 @@
     margin-bottom: 20px;
 }
 .navbar{
-    position: absolute !important;
+    padding: 0;
+}
+header{
+    // position: fixed ;
     width: 100%;
     z-index: 999;
-    padding: 25px 25px !important;
+    padding: 25px 25px ;
 }
 .navbar-brand img{
     width: 70%;

@@ -1,0 +1,366 @@
+// Party Content Section End
+.party_section {
+    background: #f6f6f6;
+    .party_content {
+        background: #fff;
+        width: 100%;
+        border-radius: 5px;
+        .party_content_img {
+            border-radius: 5px;
+            img {
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+        }
+        .party_content_box {
+            margin-bottom: 30px;
+        }
+        .party_button .party_btn {
+            background: #eaeaea;
+            color: #888;
+            font-size: 11px;
+            font-family: Poppins Medium;
+            padding: 6px 20px;
+            text-transform: uppercase;
+            margin-right: 5px;
+            transition: all 0.5s ease;
+            &:hover {
+                color: #fff;
+                background: #fb0;
+            }
+        }
+
+        &_box {
+            padding: 40px;
+            p {
+                margin-bottom: 28px;
+                text-align: justify;
+                font-size: 12px;
+                font-family: Poppins Regular;
+                span {
+                    color: #fb0;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+.party_icons {
+    margin-top: 30px;
+    h5 {
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+
+        li {
+            margin-right: 10px;
+            background: #a9a8b3;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            line-height: 35px;
+            border-radius: 50px;
+            transition: all 0.5s ease;
+
+            &:hover {
+                box-shadow: 0px 0px 10px #ddd;
+                background: #fb0;
+                color: #fff;
+            }
+
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+}
+// Party Content Section End
+
+// Party Tabs Section Start
+.nav-tabs {
+    border-bottom: 2px solid #dee2e6;
+    background: #fff;
+    .nav-link {
+        color: #4a4a4a !important;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 30px 30px;
+        border-top: transparent !important;
+        display: block;
+        border-right: 1px solid #eee !important;
+        position: relative;
+        border-bottom: 2px solid #eaeaea !important;
+        transition: all 0.5s ease;
+        &.active,
+        &:hover {
+            color: #fb0 !important;
+            background-color: #fff;
+            border-bottom-color: #fb0 !important;
+        }
+        
+    }
+}
+// Party Tabs Section End
+
+// Party Item Box Icons Component Start
+.party_item_box_icons ul {
+    list-style: none;
+    display: flex;
+    line-height: 20px;
+
+    li {
+        margin-right: 10px;
+        line-height: 20px;
+        a {
+            text-decoration: none;
+            color: #888;
+            transition: all 0.5s ease;
+            &:hover {
+                color: #fb0;
+            }
+        }
+    }
+}
+// Party Item Box Icons Component End
+
+// Party Comment Section Start
+.party_comment {
+    background: #fff;
+
+    .party_comment_title {
+        display: flex;
+        padding: 30px;
+        justify-content: space-between;
+        border-bottom: 1px solid #eee;
+        align-items: center;
+        h4 {
+            font-size: 18px;
+        }
+    }
+
+    .newsletter_content {
+        margin: 20px;
+        .form-control {
+            padding: 13px 20px !important;
+            border: 1px solid #eaeaea !important ;
+            &:focus {
+                box-shadow: none;
+            }
+        }
+    }
+
+    .newsletter_checkbox {
+        margin: 20px;
+        label {
+            font-size: 14px;
+            font-weight: 400;
+            display: flex !important;
+            align-items: center;
+            color: #888;
+            margin: 15px 0px;
+            input {
+                display: none;
+            }
+            span {
+                height: 15px;
+                width: 15px;
+                border: 1px solid #888;
+                display: inline-block;
+                position: relative;
+                margin-right: 10px;
+                border-radius: 3px;
+            }
+        }
+        [type="checkbox"]:checked + span:before {
+            content: "\2714";
+            position: absolute;
+            font-size: 10px;
+            color: #fff !important;
+        }
+    }
+    .newsletter_button .newsletter_btn {
+        background: #fb0;
+        color: #fff;
+        width: 20%;
+        font-size: 11px;
+        font-family: Poppins Medium;
+        padding: 11.5px 30px;
+        text-transform: uppercase;
+        transition: all 0.5s ease;
+        &:focus {
+            box-shadow: none;
+        }
+        &:hover {
+            border: 1px solid #fb0;
+            background: transparent;
+            color: #fb0 !important;
+        }
+    }
+}
+// Party Comment Section End
+
+// Party Details Section Start
+.party_details {
+    background-color: #fff;
+    .party_details_title {
+        display: flex;
+        padding: 30px;
+        justify-content: space-between;
+        align-items: center;
+        h4 {
+            font-size: 18px;
+        }
+        .party_title_icon {
+            display: flex;
+            float: right;
+            span {
+                margin: 5px;
+                padding: 10px;
+                line-height: 10px;
+                font-size: 20px;
+                color: #888;
+                border: 1px solid #eee;
+                border-radius: 5px;
+                transition: all 0.5s ease;
+                &:hover {
+                    background-color: #fb0;
+                    color: #fff;
+                    border-color: #fb0;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .party_details_box .party_item {
+        display: flex;
+        margin: 30px 25px;
+        line-height: 20px;
+        border-bottom: 1px solid #eee;
+        .party_item_icon {
+            font-size: 27px;
+            color: #fb0;
+            flex: 0 0 15%;
+        }
+        .party_item_content {
+            h6 {
+                text-transform: uppercase;
+                margin-bottom: 5px;
+                font-weight: 600;
+                font-size: 10px;
+                letter-spacing: 1px;
+            }
+            p {
+                font-size: 14px;
+                color: #888;
+                margin-bottom: 0px;
+                cursor: pointer;
+                transition: all 0.5s ease;
+                &:hover {
+                    color: #fb0;
+                }
+            }
+        }
+    }
+}
+// Party Details Section End
+
+// Party Sponsors Section Start
+.party_sponsors {
+    background-color: #fff;
+    .party_sponsors_title {
+        display: flex;
+        padding: 30px;
+        justify-content: space-between;
+        border-bottom: 1px solid #eee;
+        align-items: center;
+        h4 {
+            font-size: 18px;
+        }
+    }
+    .party_sponsors_box {
+        margin: 30px;
+        .party_sponsors_box_img {
+            flex: 0 0 50%;
+            border: 2px solid #eaeaea;
+            border-radius: 5px;
+            flex-direction: column;
+            img {
+                padding: 10px;
+            }
+        }
+    }
+}
+// Party Sponsors Section End
+
+// Party Event Card Section Satrt
+.party_event_section .party_event_card .card-body {
+    .card-img-top {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .card-title {
+        font-size: 21px;
+        line-height: 1.4;
+        font-weight: 700;
+        margin-bottom: 15px;
+        transition: all 0.5s ease;
+        .card-title:hover {
+            color: #fb0;
+        }
+    }
+    .party_event_card_btn {
+        display: flex;
+        align-items: center;
+        p {
+            margin-bottom: 0px;
+            font-size: 12px;
+            color: #777;
+            font-family: Poppins Medium;
+            span {
+                color: #fb0;
+                padding-right: 5px;
+                font-size: 18px;
+            }
+        }
+        .events_btn {
+            background-color: #fb0;
+            color: #fff;
+            font-size: 12px;
+            font-family: Poppins Medium;
+            border-radius: 20px;
+            padding: 6px 20px;
+            margin-right: 20px;
+            &:focus {
+                box-shadow: none;
+            }
+        }
+    }
+    .card-text {
+        font-size: 12px;
+        color: #777;
+        font-family: Poppins Medium;
+        padding: 10px 0px;
+    }
+    .party_event_card_icon {
+        display: flex;
+        font-size: 12px;
+        color: #777;
+        font-family: Poppins Medium;
+        p {
+            margin-right: 20px;
+            span {
+                color: #fb0;
+                padding-right: 5px;
+                font-size: 18px;
+            }
+        }
+    }
+}
+// Party Event Card Section End

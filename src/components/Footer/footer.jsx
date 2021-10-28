@@ -1,8 +1,8 @@
 import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 import { FaMapMarkerAlt, FaFolder, FaPhoneAlt, FaUser, FaFacebookF, FaTwitter, FaInstagram, FaYoutube, FaRegCalendarAlt, FaApple, FaGooglePlay, FaWindows, FaAmazon } from "react-icons/fa";
-import './contact.scss';
-export default function Contact() {
+import './footer.scss';
+export default function Footer() {
     return (
         <>
             <section className="contact_section contact_section_padding">
@@ -51,7 +51,7 @@ export default function Contact() {
                                 <div className="contact_post">
                                     <div className="contact_post_box">
                                         <div className="contact_post_box_img">
-                                            {/* <img src={require('../../Assets/images/Footer/1.webp').default} alt="" className="img-fluid" /> */}
+                                            <img src={require('../../Assets/images/Footer/1.webp').default} alt="" className="img-fluid" />
                                         </div>
                                         <div className="contact_post_box_text">
                                             <h6>Top 20 Event and Conference Countries</h6>
@@ -61,7 +61,7 @@ export default function Contact() {
 
                                     <div className="contact_post_box">
                                         <div className="contact_post_box_img">
-                                            {/* <img src={require('../../Assets/images/Footer/2.webp').default} alt="" className="img-fluid" /> */}
+                                            <img src={require('../../Assets/images/Footer/2.webp').default} alt="" className="img-fluid" />
                                         </div>
                                         <div className="contact_post_box_text">
                                             <h6>Budgets for Business Events</h6>
@@ -71,7 +71,7 @@ export default function Contact() {
 
                                     <div className="contact_post_box">
                                         <div className="contact_post_box_img">
-                                            {/* <img src={require('../../Assets/images/Footer/3.webp').default} alt="" className="img-fluid" /> */}
+                                            <img src={require('../../Assets/images/Footer/3.webp').default} alt="" className="img-fluid" />
                                         </div>
                                         <div className="contact_post_box_text">
                                             <h6>5 Ideas for Fun Family Activities</h6>
