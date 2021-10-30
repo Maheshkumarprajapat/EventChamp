@@ -10,8 +10,8 @@ export default function App() {
     <>
       <Header />
       {/* <Home/> */}
-      {/* <Travel /> */}
-      <Party />
+      <Travel />
+      {/* <Party /> */}
       {/* <Newsletter /> */}
       <Footer />
     </>

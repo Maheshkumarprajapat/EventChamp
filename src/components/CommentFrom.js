@@ -33,7 +33,7 @@ export default function CommentFrom() {
              </label>
 
              <div className="newsletter_button">
-                 <a href="/" className="newsletter_btn btn">Post Comment</a>
+                 <button className="btn-border">Post Comment</button>
              </div>
          </div>
      </div>

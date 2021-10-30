@@ -7,5 +7,24 @@
 // @import "./posts.scss";
 // @import "./contact.scss";
 @import "./responsive.scss";
-@import './preloader.scss';
+@import "./preloader.scss";
 // @import '../css/Categoriespages/travel.scss';
+
+.btn-border {
+    background: #fb0;
+    color: #fff;
+    display: inline;
+    font-size: 11px;
+    font-family: Poppins Medium;
+    padding: 11.5px 30px;
+    transition: all 0.5s ease;
+    outline: none;
+    border: 1px solid #fb0;
+    border-radius: 5px;
+    &:hover {
+        border: 1px solid #fb0;
+        background: transparent;
+        color: #fb0;
+    }
+}
+

@@ -83,7 +83,7 @@
 }
 // Party Content Section End
 
-// Party Tabs Section Start
+// ================ Party Tabs Section Start  ====================
 .nav-tabs {
     border-bottom: 2px solid #dee2e6;
     background: #fff;
@@ -104,10 +104,166 @@
             background-color: #fff;
             border-bottom-color: #fb0 !important;
         }
-        
     }
 }
-// Party Tabs Section End
+
+// ===============  Schedule Component Start  =============
+.schedule_section {
+    .schedule_tabs .nav-tabs {
+        background-color: #fb0;
+        padding: 0px 40px;
+        .nav-link {
+            color: #fff !important;
+            border-right: transparent !important;
+            transition: all 0.5s ease;
+            &:hover {
+                background-color: #fb0;
+                border-left: transparent !important;
+            }
+            &.active {
+                background-color: rgba(0, 0, 0, 0.05);
+                border-color: transparent !important;
+            }
+        }
+    }
+}
+// ScheduleDay1 Component Start
+.faq_section .accordion {
+    .ScheduleDay1_date {
+        padding-right: 10px;
+    }
+    .ScheduleDay1_time {
+        padding-right: 10px;
+    }
+    .accordion_text {
+        .ScheduleDay1_box {
+            display: flex !important;
+            align-items: center;
+            .ScheduleDay1_item {
+                display: flex;
+                align-items: center;
+                .ScheduleDay1_img img {
+                    width: 50%;
+                    height: auto;
+                    border-radius: 50%;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}
+// ScheduleDay1 Component End
+// ================= Schedule Component End =================
+
+// Tickets Component Start
+.tickets_section {
+    background-color: #fff;
+    padding: 40px 0px;
+    text-align: center;
+    .tickets_box {
+        border: 1px solid #fb0;
+        border-radius: 5px;
+        padding: 30px;
+        .tickets_title {
+            h4 {
+                font-size: 18px;
+                font-weight: 600;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                line-height: 1.2;
+                margin: 0 0 3px;
+            }
+            span {
+                color: #fb0;
+                font-weight: 600;
+                font-size: 40px;
+                font-family: Poppins SemiBold;
+            }
+        }
+        .tickets_text {
+            p {
+                margin: 0 0 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #888;
+                font-size: 14px;
+                span {
+                    margin-right: 10px;
+                    background-color: #fb0;
+                    border-radius: 50px;
+                    color: #fff;
+                    width: 13px;
+                    height: 13px;
+                    line-height: 10px;
+                    font-size: 8px;
+                }
+            }
+        }
+    }
+}
+// Tickets Component End
+
+// Map Component Start
+.map_section {
+    padding: 30px;
+    background-color: #fff;
+    iframe {
+        width: 100%;
+        height: 100vh;
+    }
+}
+// Map Component End
+
+// Tour Component Start
+.tour_section {
+    background-color: #fff;
+    padding: 30px;
+}
+// Tour Component End
+
+// FAQ Component Start
+.faq_section {
+    background-color: #fff;
+    padding: 30px;
+    .accordion .card {
+        .card-header {
+            padding: 20px;
+            background-color: #f9f9f9;
+            margin-bottom: 0px;
+        }
+        button {
+            background-color: transparent !important;
+            border: transparent !important;
+            display: flex;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            .down_arrow {
+                position: absolute;
+                right: 10px;
+            }
+        }
+    }
+    .accordion_text {
+        border-bottom: 1px solid #00000020;
+
+        p {
+            padding: 20px;
+            font-size: 14px;
+            font-family: Poppins Regular;
+        }
+    }
+}
+// FAQ Component End
+
+// Contact Component Start
+.party_comment {
+    padding: 30px 0px;
+    background-color: #fff;
+}
+// Contact Component End
+
+// =============== Party Tabs Section End   =====================
 
 // Party Item Box Icons Component Start
 .party_item_box_icons ul {
@@ -183,24 +339,6 @@
             position: absolute;
             font-size: 10px;
             color: #fff !important;
-        }
-    }
-    .newsletter_button .newsletter_btn {
-        background: #fb0;
-        color: #fff;
-        width: 20%;
-        font-size: 11px;
-        font-family: Poppins Medium;
-        padding: 11.5px 30px;
-        text-transform: uppercase;
-        transition: all 0.5s ease;
-        &:focus {
-            box-shadow: none;
-        }
-        &:hover {
-            border: 1px solid #fb0;
-            background: transparent;
-            color: #fb0 !important;
         }
     }
 }
@@ -364,3 +502,9 @@
     }
 }
 // Party Event Card Section End
+
+// ==================  Component Section =========
+
+// Tickets Section Start
+
+// Tickets Section End

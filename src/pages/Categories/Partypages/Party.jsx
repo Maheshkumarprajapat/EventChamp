@@ -1,12 +1,16 @@
 import React from 'react';
-import {
-    Container, Row, Col, Card, Tabs, Tab
-} from 'react-bootstrap';
+import {Container, Row, Col, Card, Tabs, Tab} from 'react-bootstrap';
 import './party.scss';
 import PartyBox from '../../../components/PartyBox';
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube, FaRegEnvelope, FaRegStar, FaRegCalendarAlt, FaCheckCircle, FaMapMarkerAlt, FaMapMarkedAlt, FaRegUser, FaRegFolderOpen, FaPhoneAlt, FaFax, FaTicketAlt, FaShareAlt } from "react-icons/fa";
 import InnerBanner from '../../../components/InnerBanner/InnerBanner';
 import CommentFrom from '../../../components/CommentFrom';
+import Schedule from '../../../components/Schedule';
+import Tickets from '../../../components/Tickets';
+import Map from '../../../components/Map';
+import Tour from '../../../components/Tour';
+import Faq from '../../../components/Faq';
+import Contact from '../../../components/Contact';
 
 
 
@@ -63,14 +67,24 @@ export default function Party() {
                             {/* Party Tabs Section Start */}
                             <div className="party_tabs tab">
                                 <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
-                                    <Tab eventKey="home" title="Home">
-                                        <CommentFrom />
+                                    <Tab eventKey="schedule" title="Schedule">
+                                        <Schedule/>
                                     </Tab>
-                                    <Tab eventKey="profile" title="Profile">
-                                        <CommentFrom />
+                                    
+                                    <Tab eventKey="tickets" title="Tickets">
+                                        <Tickets/>
+                                    </Tab>
+                                    <Tab eventKey="map" title="Map">
+                                        <Map />
+                                    </Tab>
+                                    <Tab eventKey="tour" title="Tour">
+                                        <Tour/>
+                                    </Tab>
+                                    <Tab eventKey="faq" title="Faq">
+                                        <Faq/>
                                     </Tab>
                                     <Tab eventKey="contact" title="Contact">
-                                        <CommentFrom />
+                                       <Contact />
                                     </Tab>
                                 </Tabs>
                             </div>
